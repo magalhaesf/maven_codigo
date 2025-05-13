@@ -1,0 +1,18 @@
+//comando mvn//Gerar o arquetipo 
+mvn archetype:generate
+
+
+	//Adicionar o id do grupo da minha aplicação
+	-DgroupId=com.exemplo
+
+
+	//Adicionar o id do meu projeto
+	-DartifactId=meu-projeto
+
+
+	//Qual o tipo arquetipo que eu quero utilizar
+	-DarchetypeArtifactId=maven-archetype-quickstart
+
+
+//linha pronta
+mvn archetype:generate -DgroupId=com.magalhaes -DartifactId=sol-cachorrinha -DarchetypeArtifactId=maven-archetype-quickstart
